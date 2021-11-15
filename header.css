@@ -1,0 +1,36 @@
+.Header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 01.5%;
+  padding-bottom: 01.5%;
+  background-color: rgba(240, 248, 255, 0.8);
+  border-bottom: 1px solid grey;
+  box-shadow: 0 0 15px -1px lightslategray;
+  position: fixed;
+  top: 0;
+}
+
+.Header > * {
+  padding-left: 02.5%;
+  padding-right: 02.5%;
+}
+
+.Header a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  transition: all ease 0.3s;
+}
+
+.Header a:hover {
+  color: darkviolet;
+  text-shadow: 0 0 15px violet, 0 0 8px lightslategray;
+}
+
+.Header span {
+  font-size: x-large;
+  font-weight: 500;
+  cursor: default;
+}

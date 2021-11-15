@@ -1,0 +1,23 @@
+#contact {
+  background-color: #eebf63;
+  box-shadow: inset 0px 30px 20px -10px white, inset 0px -10px 20px -10px white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact > * {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 30%;
+}
+
+#contact input,
+#contact textarea {
+  border-radius: 6px;
+  border: 1px solid black;
+  padding: 2px;
+}

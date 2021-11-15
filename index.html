@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>JHANVI LAMBA | PORTFOLIO</title>
+  </head>
+  <body>
+    <div class="Header">
+      <a href="/#home" class="aHome">HOME</a>
+      <a href="/#about" class="aAbout">ABOUT</a>
+      <span>JHANVI LAMBA</span>
+      <a href="/#gallery" class="aGallery">GALLERY</a>
+      <a href="/#contact" class="aContact">CONTACT</a>
+    </div>
+
+    <div id="container">
+      <section id="home">
+        <div class="homeText">
+          <p style="color: darkviolet">Hey there!</p>
+          <h1>I'm <span style="color: darkviolet">JHANVI LAMBA</span>,</h1>
+          <p>An enthusiastic learner with keen interest in Computer Science.</p>
+        </div>
+        <div class="homeImg">
+          <img src="./home.png" alt="Gobind" />
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="edu">
+          <h1>Education</h1>
+          <div>
+            <h3>SRM IST Ramapuram, Chennai</h3>
+            <p class="p1">Bachelor's Degree</p>
+            <p class="p2">B.Tech. Computer Science & Engineering</p>
+          </div>
+          <div>
+            <h3>CMR National PU College, Banglore</h3>
+            <p class="p1">Higher Secondary Education</p>
+            <p class="p2">Scored 94.16% in II PUC (Karnataka Board)</p>
+          </div>
+          <div>
+            <h3>Gopalan National School, Banglore</h3>
+            <p class="p1">Primary and Secondary Education</p>
+            <p class="p2">Scored 93.33% in 10th Board Exam (ICSE)</p>
+          </div>
+        </div>
+        <div class="exp">
+          <h1>Experience</h1>
+          <div>
+            <h3>Internship at FreshDigital Consulting Service</h3>
+            <p class="p1">November 2021 - Present</p>
+            <p class="p2">UI/UX Designing</p>
+          </div>
+          <div>
+            <h3>GDSC SRM IST Ramapuram Campus</h3>
+            <p class="p1">April 2021 - Present</p>
+            <p class="p2">Technical Team Member</p>
+          </div>
+          <div>
+            <h3>Sketch Club SRM IST Ramapuram Campus</h3>
+            <p class="p1">March 2021 - Present</p>
+            <p class="p2">Designing Team Member</p>
+          </div>
+        </div>
+        <div class="skills">
+          <h1>Skills</h1>
+          <h3>Tools & Designing skills</h3>
+          <div class="icons">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_Mobile_icon.svg/1200px-Adobe_Photoshop_Mobile_icon.svg.png"
+              alt="Photoshop Icon"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/768px-Adobe_XD_CC_icon.svg.png"
+              alt="Adobe XD Icon"
+            />
+            <img
+              src="https://i.pinimg.com/originals/17/06/c9/1706c9f16bd08eb5e03f1df3e0a94a1c.png"
+              alt="Figma Icon"
+            />
+          </div>
+          <div class="techSkill">
+            <h3>Technical Skills</h3>
+            <p>Python, C, C++, Java, <br />Web Devlopment, Git, Github</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery"></section>
+
+      <section id="contact">
+        <h1>Want to get in touch?</h1>
+        <h4>I would love to hear from you!</h4>
+        <form>
+          <label for="fname">Name:</label><br />
+          <input type="text" id="fname" name="fname" placeholder="Full name" />
+          <br />
+          <label for="email">Email:</label><br />
+          <input type="text" id="email" name="email" placeholder="Your email" />
+          <br />
+          <label for="msg">Message:</label><br />
+          <!-- <textarea style="max-width: 50px" id="msg" name="msg" /> -->
+          <br />
+        </form>
+      </section>
+    </div>
+
+    <link rel="stylesheet" href="./header.css" />
+    <link rel="stylesheet" href="./home.css" />
+    <link rel="stylesheet" href="./about.css" />
+    <link rel="stylesheet" href="./gallery.css" />
+    <link rel="stylesheet" href="./contact.css" />
+
+    <script src="./script.js"></script>
+    <script>
+      pageChangeOnClick();
+    </script>
+  </body>
+</html>

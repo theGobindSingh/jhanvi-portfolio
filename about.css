@@ -1,0 +1,48 @@
+#about {
+  height: 100vh;
+  background-color: #b983ff;
+  box-shadow: inset 0px 30px 20px -10px white, inset 0px -10px 20px -10px white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#about > div {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+}
+
+#about .edu,
+#about .exp {
+  justify-content: space-evenly;
+}
+
+#about .skills {
+  justify-content: center;
+}
+
+#about .icons {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#about .icons img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+
+#about .p1 {
+  font-style: italic;
+}
+
+#about h3,
+#about p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
